@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Actualités",
+    "insights": "Analyses",
+    "analysis": "Analyse",
+    "research": "Recherche",
+    "events": "Événements",
+    "about": "À propos",
+    "login": "Connexion",
+    "signup": "S'abonner",
+    "dashboard": "Tableau de bord"
+  },
+  "hero": {
+    "breaking": "Flash info",
+    "headline": "Intelligence bancaire et financière mondiale",
+    "subheadline": "Couverture approfondie de la banque mondiale, des marchés et des politiques financières.",
+    "cta": "Commencer à lire"
+  },
+  "login": {
+    "title": "Connectez-vous à votre compte",
+    "heading": "Bon retour parmi nous",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "submitting": "Connexion en cours…",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signupLink": "Inscrivez-vous gratuitement"
+  },
+  "signup": {
+    "title": "Créez votre compte gratuit",
+    "heading": "Commencez aujourd'hui",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "submit": "Créer un compte",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Se connecter"
+  }
+}

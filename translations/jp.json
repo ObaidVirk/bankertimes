@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "ニュース",
+    "insights": "インサイト",
+    "analysis": "分析",
+    "research": "リサーチ",
+    "events": "イベント",
+    "about": "会社概要",
+    "login": "ログイン",
+    "signup": "登録",
+    "dashboard": "ダッシュボード"
+  },
+  "hero": {
+    "breaking": "速報",
+    "headline": "グローバルバンキング＆金融インテリジェンス",
+    "subheadline": "グローバルバンキング、市場、金融政策の詳細な報道。",
+    "cta": "読み始める"
+  },
+  "login": {
+    "title": "アカウントにサインイン",
+    "heading": "おかえりなさい",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "submit": "サインイン",
+    "submitting": "サインイン中…",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "signupLink": "無料で登録"
+  },
+  "signup": {
+    "title": "無料アカウントを作成",
+    "heading": "今日から始める",
+    "name": "フルネーム",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワードを確認",
+    "submit": "アカウントを作成",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "loginLink": "サインイン"
+  }
+}

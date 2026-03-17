@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Notícias",
+    "insights": "Perspectivas",
+    "analysis": "Análise",
+    "research": "Pesquisa",
+    "events": "Eventos",
+    "about": "Sobre",
+    "login": "Entrar",
+    "signup": "Inscrever-se",
+    "dashboard": "Painel"
+  },
+  "hero": {
+    "breaking": "Último momento",
+    "headline": "Inteligência bancária e financeira global",
+    "subheadline": "Cobertura aprofundada do setor bancário global, mercados e política financeira.",
+    "cta": "Começar a ler"
+  },
+  "login": {
+    "title": "Entre na sua conta",
+    "heading": "Bem-vindo de volta",
+    "email": "Endereço de e-mail",
+    "password": "Senha",
+    "submit": "Entrar",
+    "submitting": "Entrando…",
+    "forgotPassword": "Esqueceu a senha?",
+    "noAccount": "Não tem uma conta?",
+    "signupLink": "Inscreva-se grátis"
+  },
+  "signup": {
+    "title": "Crie sua conta gratuita",
+    "heading": "Comece hoje",
+    "name": "Nome completo",
+    "email": "Endereço de e-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar senha",
+    "submit": "Criar conta",
+    "hasAccount": "Já tem uma conta?",
+    "loginLink": "Entrar"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Nieuws",
+    "insights": "Inzichten",
+    "analysis": "Analyse",
+    "research": "Onderzoek",
+    "events": "Evenementen",
+    "about": "Over ons",
+    "login": "Inloggen",
+    "signup": "Abonneren",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "breaking": "Laatste nieuws",
+    "headline": "Wereldwijde bank- en financiële intelligentie",
+    "subheadline": "Diepgaande berichtgeving over wereldwijd bankieren, markten en financieel beleid.",
+    "cta": "Begin met lezen"
+  },
+  "login": {
+    "title": "Meld u aan op uw account",
+    "heading": "Welkom terug",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "submit": "Inloggen",
+    "submitting": "Bezig met inloggen…",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "noAccount": "Geen account?",
+    "signupLink": "Gratis aanmelden"
+  },
+  "signup": {
+    "title": "Maak uw gratis account aan",
+    "heading": "Begin vandaag",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "confirmPassword": "Wachtwoord bevestigen",
+    "submit": "Account aanmaken",
+    "hasAccount": "Al een account?",
+    "loginLink": "Inloggen"
+  }
+}

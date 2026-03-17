@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Haberler",
+    "insights": "Görüşler",
+    "analysis": "Analiz",
+    "research": "Araştırma",
+    "events": "Etkinlikler",
+    "about": "Hakkımızda",
+    "login": "Giriş Yap",
+    "signup": "Abone Ol",
+    "dashboard": "Kontrol Paneli"
+  },
+  "hero": {
+    "breaking": "Son Dakika",
+    "headline": "Küresel Bankacılık ve Finans İstihbaratı",
+    "subheadline": "Küresel bankacılık, piyasalar ve finansal politika hakkında derinlemesine haberler.",
+    "cta": "Okumaya Başla"
+  },
+  "login": {
+    "title": "Hesabınıza giriş yapın",
+    "heading": "Tekrar hoş geldiniz",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "submit": "Giriş Yap",
+    "submitting": "Giriş yapılıyor…",
+    "forgotPassword": "Şifremi unuttum?",
+    "noAccount": "Hesabınız yok mu?",
+    "signupLink": "Ücretsiz kaydolun"
+  },
+  "signup": {
+    "title": "Ücretsiz hesabınızı oluşturun",
+    "heading": "Bugün başlayın",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "submit": "Hesap Oluştur",
+    "hasAccount": "Zaten hesabınız var mı?",
+    "loginLink": "Giriş Yap"
+  }
+}

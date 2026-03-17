@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Berita",
+    "insights": "Wawasan",
+    "analysis": "Analisis",
+    "research": "Riset",
+    "events": "Acara",
+    "about": "Tentang Kami",
+    "login": "Masuk",
+    "signup": "Berlangganan",
+    "dashboard": "Dasbor"
+  },
+  "hero": {
+    "breaking": "Berita Terkini",
+    "headline": "Kecerdasan Perbankan dan Keuangan Global",
+    "subheadline": "Liputan mendalam tentang perbankan global, pasar, dan kebijakan keuangan.",
+    "cta": "Mulai Membaca"
+  },
+  "login": {
+    "title": "Masuk ke akun Anda",
+    "heading": "Selamat datang kembali",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "submit": "Masuk",
+    "submitting": "Sedang masuk…",
+    "forgotPassword": "Lupa kata sandi?",
+    "noAccount": "Belum punya akun?",
+    "signupLink": "Daftar gratis"
+  },
+  "signup": {
+    "title": "Buat akun gratis Anda",
+    "heading": "Mulai hari ini",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "submit": "Buat Akun",
+    "hasAccount": "Sudah punya akun?",
+    "loginLink": "Masuk"
+  }
+}

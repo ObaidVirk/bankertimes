@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Wiadomości",
+    "insights": "Spostrzeżenia",
+    "analysis": "Analiza",
+    "research": "Badania",
+    "events": "Wydarzenia",
+    "about": "O nas",
+    "login": "Zaloguj się",
+    "signup": "Subskrybuj",
+    "dashboard": "Panel"
+  },
+  "hero": {
+    "breaking": "Pilne",
+    "headline": "Globalna inteligencja bankowa i finansowa",
+    "subheadline": "Dogłębne relacje z globalnej bankowości, rynków i polityki finansowej.",
+    "cta": "Zacznij czytać"
+  },
+  "login": {
+    "title": "Zaloguj się na swoje konto",
+    "heading": "Witamy ponownie",
+    "email": "Adres e-mail",
+    "password": "Hasło",
+    "submit": "Zaloguj się",
+    "submitting": "Logowanie…",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "noAccount": "Nie masz konta?",
+    "signupLink": "Zarejestruj się bezpłatnie"
+  },
+  "signup": {
+    "title": "Utwórz bezpłatne konto",
+    "heading": "Rozpocznij dzisiaj",
+    "name": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "submit": "Utwórz konto",
+    "hasAccount": "Masz już konto?",
+    "loginLink": "Zaloguj się"
+  }
+}

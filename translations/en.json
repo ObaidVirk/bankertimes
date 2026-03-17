@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "News",
+    "insights": "Insights",
+    "analysis": "Analysis",
+    "research": "Research",
+    "events": "Events",
+    "about": "About",
+    "login": "Log In",
+    "signup": "Subscribe",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "breaking": "Breaking",
+    "headline": "Global Banking & Finance Intelligence",
+    "subheadline": "In-depth coverage of global banking, markets, and financial policy.",
+    "cta": "Start Reading"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "heading": "Welcome back",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Sign In",
+    "submitting": "Signing in…",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signupLink": "Sign up free"
+  },
+  "signup": {
+    "title": "Create your free account",
+    "heading": "Get started today",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "submit": "Create Account",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Sign in"
+  }
+}

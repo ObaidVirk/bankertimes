@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "Nachrichten",
+    "insights": "Einblicke",
+    "analysis": "Analyse",
+    "research": "Forschung",
+    "events": "Veranstaltungen",
+    "about": "Über uns",
+    "login": "Anmelden",
+    "signup": "Abonnieren",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "breaking": "Eilmeldung",
+    "headline": "Globale Bank- und Finanzintelligenz",
+    "subheadline": "Tiefgreifende Berichterstattung über das globale Bankwesen, Märkte und Finanzpolitik.",
+    "cta": "Jetzt lesen"
+  },
+  "login": {
+    "title": "Bei Ihrem Konto anmelden",
+    "heading": "Willkommen zurück",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "submit": "Anmelden",
+    "submitting": "Anmeldung läuft…",
+    "forgotPassword": "Passwort vergessen?",
+    "noAccount": "Kein Konto?",
+    "signupLink": "Kostenlos registrieren"
+  },
+  "signup": {
+    "title": "Kostenloses Konto erstellen",
+    "heading": "Heute starten",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "submit": "Konto erstellen",
+    "hasAccount": "Bereits ein Konto?",
+    "loginLink": "Anmelden"
+  }
+}

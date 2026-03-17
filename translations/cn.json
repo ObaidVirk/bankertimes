@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "新闻",
+    "insights": "洞察",
+    "analysis": "分析",
+    "research": "研究",
+    "events": "活动",
+    "about": "关于我们",
+    "login": "登录",
+    "signup": "订阅",
+    "dashboard": "仪表板"
+  },
+  "hero": {
+    "breaking": "突发新闻",
+    "headline": "全球银行与金融情报",
+    "subheadline": "深度报道全球银行业、市场及金融政策。",
+    "cta": "开始阅读"
+  },
+  "login": {
+    "title": "登录您的账户",
+    "heading": "欢迎回来",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "submit": "登录",
+    "submitting": "登录中…",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "还没有账户？",
+    "signupLink": "免费注册"
+  },
+  "signup": {
+    "title": "创建您的免费账户",
+    "heading": "立即开始",
+    "name": "全名",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "submit": "创建账户",
+    "hasAccount": "已有账户？",
+    "loginLink": "登录"
+  }
+}

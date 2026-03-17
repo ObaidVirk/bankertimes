@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "news": "뉴스",
+    "insights": "인사이트",
+    "analysis": "분석",
+    "research": "리서치",
+    "events": "이벤트",
+    "about": "회사 소개",
+    "login": "로그인",
+    "signup": "구독",
+    "dashboard": "대시보드"
+  },
+  "hero": {
+    "breaking": "속보",
+    "headline": "글로벌 뱅킹 및 금융 인텔리전스",
+    "subheadline": "글로벌 뱅킹, 시장 및 금융 정책에 대한 심층 보도.",
+    "cta": "읽기 시작"
+  },
+  "login": {
+    "title": "계정에 로그인하세요",
+    "heading": "다시 오신 것을 환영합니다",
+    "email": "이메일 주소",
+    "password": "비밀번호",
+    "submit": "로그인",
+    "submitting": "로그인 중…",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "noAccount": "계정이 없으신가요?",
+    "signupLink": "무료 가입"
+  },
+  "signup": {
+    "title": "무료 계정 만들기",
+    "heading": "오늘 시작하세요",
+    "name": "전체 이름",
+    "email": "이메일 주소",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "submit": "계정 만들기",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "loginLink": "로그인"
+  }
+}
