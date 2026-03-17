@@ -1,24 +1,29 @@
 'use client';
 
 import { useState } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
+export type BillingCycle = 'monthly' | 'yearly';
 
 export type PricingPlan = {
   id: string;
   name: string;
-  price: string;           // display label e.g. "$29"
-  unitAmount: number;      // in cents e.g. 2900
+  price: string;
   period: string;
   description: string;
   features: string[];
+  billingNote?: string;
   highlighted?: boolean;
   ctaLabel?: string;
   isFree?: boolean;
 };
 
-export default function PricingCard({ plan }: { plan: PricingPlan }) {
+export default function PricingCard({
+  plan,
+  billingCycle,
+}: {
+  plan: PricingPlan;
+  billingCycle: BillingCycle;
+}) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -33,8 +38,7 @@ export default function PricingCard({ plan }: { plan: PricingPlan }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           planId: plan.id,
-          planName: plan.name,
-          unitAmount: plan.unitAmount,
+          billingCycle,
         }),
       });
 
@@ -44,10 +48,6 @@ export default function PricingCard({ plan }: { plan: PricingPlan }) {
         throw new Error(data.error ?? 'Unexpected error');
       }
 
-      const stripe = await stripePromise;
-      if (!stripe) throw new Error('Stripe failed to load');
-
-      // Redirect to Stripe Checkout
       window.location.href = data.url;
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong.');
@@ -87,6 +87,7 @@ export default function PricingCard({ plan }: { plan: PricingPlan }) {
           )}
         </div>
         <p className="text-gray-500 text-sm mt-2">{plan.description}</p>
+        {plan.billingNote && <p className="text-xs text-gray-400 mt-1">{plan.billingNote}</p>}
       </div>
 
       <ul className="space-y-2.5 mb-7 flex-1">

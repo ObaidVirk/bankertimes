@@ -61,6 +61,15 @@ Required variables:
 - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
 - `STRIPE_SECRET_KEY`
 
+Optional but recommended for production Stripe subscriptions:
+
+- `STRIPE_PRICE_PROFESSIONAL_MONTHLY`
+- `STRIPE_PRICE_PROFESSIONAL_YEARLY`
+- `STRIPE_PRICE_ENTERPRISE_MONTHLY`
+- `STRIPE_PRICE_ENTERPRISE_YEARLY`
+
+If these optional price IDs are not set, the checkout API falls back to server-defined amount values.
+
 ## Scripts
 
 - `npm run dev` - Start dev server

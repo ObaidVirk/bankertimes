@@ -12,6 +12,7 @@ const navLinkDefs = [
   { tKey: 'analysis', href: '/analysis' },
   { tKey: 'research', href: '/research' },
   { tKey: 'events',   href: '/events' },
+  { tKey: 'pricing',  href: '/pricing' },
   { tKey: 'about',    href: '/about' },
 ];
 
@@ -96,6 +97,13 @@ export default function Navbar() {
               </Link>
 
               <Link
+                href="/pricing"
+                className="hidden md:inline-flex px-3 py-1.5 text-sm font-semibold text-white border border-banker-red/70 bg-banker-red/20 hover:bg-banker-red hover:border-banker-red rounded-sm transition-colors"
+              >
+                {t('nav.pricing')}
+              </Link>
+
+              <Link
                 href="/signup"
                 className="inline-flex px-3 py-1.5 text-sm font-bold text-white bg-banker-red hover:bg-banker-red-dark rounded-sm transition-colors"
               >
@@ -170,6 +178,13 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
               >
                 {t('nav.login')}
+              </Link>
+              <Link
+                href="/pricing"
+                className="flex items-center justify-center px-4 py-2.5 border border-banker-red/70 text-white bg-banker-red/20 font-semibold rounded-sm text-sm"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t('nav.pricing')}
               </Link>
               <Link
                 href="/signup"
